@@ -7,9 +7,7 @@ This is a **landing page template** built completely from scratch using **HTML, 
 The goal was to practice building a front-end concept without relying on any pre-made themes or frameworks.  
 
 ## ✨ Features  
-- 🌐 Responsive design (mobile, tablet, desktop)  
 - 🎨 Clean and modern layout  
-- ⚡ Lightweight and fast  
 - 📂 Simple and well-structured code  
 
 ## 🛠️ Built With  
