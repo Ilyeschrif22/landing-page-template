@@ -5,6 +5,7 @@
     --secondary-color: #071f1b;
     --black: #000000;
     --white: #ffffff;
+    --social-circle: #213632;
 
 }
 
@@ -86,7 +87,7 @@ body {
 }
 
 .get-started-button {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     background-color: var(--main-color);
@@ -246,10 +247,119 @@ h1 {
 
 .footer-area {
     width: 100%;
-    height: 380px;
     border: none;
     display: block;
     background-color: var(--secondary-color);
+}
+
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 420px;
+    color: var(--white);
+    background-color: var(--secondary-color);
+}
+
+.footer-social-links {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 60px;
+}
+
+.footer-nav {
+    width: 70%;
+    height: 100%;
+}
+
+.logo-image img {
+    height: 40px;
+    width: 160px;
+}
+
+p {
+    margin: 0 0 18px 10px;
+    font-size: 16px;
+}
+
+.footer-social-icons {
+    margin: 10px 0 10px 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-circle {
+    background-color: var(--social-circle);
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.social-circle:hover {
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.social-circle img {
+    height: 16px;
+    width: 16px;
+}
+
+.social-circle:hover img {
+    filter: invert(1);
+}
+
+.youtube-icon {
+    margin-top: 4px;
+}
+
+.ft-right {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    padding: 80px 0 0 0;
+    font-size: 14px;
+    gap: 140px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list-title {
+    font-size: 16px;
+}
+
+.footer-list-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    color: var(--white);
+    margin-bottom: 14px;
+}
+
+.rights-section {
+    height: 70px;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: var(--secondary-color);
+    color: var(--white);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    box-sizing: border-box;
 }
 
 
