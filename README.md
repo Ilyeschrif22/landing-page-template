@@ -14,14 +14,16 @@ The goal was to practice building a front-end concept without relying on any pre
 
 ## 🛠️ Built With  
 - **HTML5** – Structure  
-- **CSS3** (Flexbox, Grid, Variables) – Styling  
-- **JavaScript (Vanilla)** – Interactivity  
+- **CSS3**  – Styling  
+- **JavaScript  – Interactivity  
 - **Netlify** – Deployment/Hosting  
 
 ## 📂 Structure  
+
+```plaintext
 .
-├── index.html # Main page
-├── styles.css # Stylesheet
-├── script.js # JavaScript
-├── /images # Assets
-└── README.md # Documentation
+├── index.html        # Main page
+├── styles.css        # Stylesheet
+├── script.js         # JavaScript
+├── /images           # Assets
+└── README.md         # Documentation
