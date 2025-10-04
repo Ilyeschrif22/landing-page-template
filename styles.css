@@ -619,7 +619,8 @@ body {
     }
 
     .project-overview {
-        height: 350px;
+        height: 280px;
+        width: 360px;
     }
 
     .white-screen-overview {
