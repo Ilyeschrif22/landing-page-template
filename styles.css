@@ -406,7 +406,9 @@ body {
 }
 
 .footer-social-links {
+    min-width: 400px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 20px 0 0 60px;
     width: 40%;
@@ -419,12 +421,14 @@ body {
 }
 
 .logo-image img {
+
     height: 40px;
     width: 160px;
 }
 
 .footer-social-icons {
     display: flex;
+    align-items: center;
     gap: 10px;
     margin: 10px 0 10px 10px;
 }
@@ -436,7 +440,7 @@ body {
     background-color: var(--social-circle);
     width: 36px;
     height: 36px;
-    border-radius: 12px;
+    border-radius: 25px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -570,6 +574,10 @@ body {
     .facts-wrap {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .facts-info {
+        font-size: 50px;
     }
 
     .logo-image {
