@@ -222,6 +222,8 @@ body {
     height: 600px;
     background-color: black;
     padding: 10px;
+    overflow: hidden;
+    /* مهم لقص أي زيادة للصورة */
 }
 
 .white-screen-overview {
@@ -229,6 +231,14 @@ body {
     height: 100%;
     background-color: var(--white);
     border-radius: 8px;
+    overflow: hidden;
+}
+
+.white-screen-overview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .statistics-area {
@@ -597,10 +607,40 @@ body {
         gap: 40px;
     }
 
+    .rights-section {
+        font-size: 12px;
+        padding: 0 8px;
+    }
+
     .footer-list-container {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .project-overview {
+        height: 350px;
+    }
+
+    .white-screen-overview {
+        height: 99%;
+    }
+
+    .white-screen-overview img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    .statistics-area {
+        height: auto;
+        margin-top: 2em;
+    }
+
+    .statistics-content {
+        padding: 20px;
+        gap: 15px;
+        flex-direction: column;
     }
 
 }
