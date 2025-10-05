@@ -619,12 +619,14 @@ body {
     }
 
     .project-overview {
-        height: 280px;
-        width: 360px;
+        height: 220px;
+        width: 340px;
     }
 
     .white-screen-overview {
-        height: 99%;
+        background-color: #e6e6e6;
+        height: 100%;
+        width: 100%;
     }
 
     .white-screen-overview img {
